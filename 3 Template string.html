@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Template string</title>
+ </head>
+ <body>
+     <script>
+
+//  old method
+         let user = " Chaitanya";
+         document.write("HEllo" + user +"<br>");
+
+
+//  new ES6 method
+
+// Example 1
+let a = "Chaitanya";
+ document.write(`Hello ${a} welcome to home  "<br>"`);
+
+// Example 2
+let b = "Ranjit";
+let marks = 500;
+document.write(`Hello ${b} your total marks is ${marks} "<br>`);
+
+// Example 3
+let c = "Rashmi";
+let mark = 400;
+let d = `Hello ${c} your total marks is ${mark} <br>`;
+document.write(d);
+
+
+// Example 4
+
+let x = "Ram";
+let y = "sham";
+
+function fullName(x,y){
+    return `${x} ${y}`;
+}
+
+let hello = `Hello ${fullName(x,y)}`;
+
+
+document.write(hello);
+
+
+     </script>
+ </body>
+ </html>

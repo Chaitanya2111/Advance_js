@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1
+let user = ["Chaitanya",24,"Satara"];
+
+let [name,age,city] =user;
+console.log(name);
+console.log(age);
+console.log(city);
+
+// 2
+
+function Chaitanya([bike,income,city]){
+    console.log(bike);
+    console.log(income);
+    console.log(city);
+}
+
+Chaitanya(["FZ-s",25000,"Lonavala"]);
+
+
+// 3
+
+function user1(){
+    return ["Chaitanya",24,"Satara"];
+}
+let [sname,Age,City] = user1();
+console.log(Age);
+
+    </script>
+</body>
+</html>
